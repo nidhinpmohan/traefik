@@ -12,6 +12,9 @@ sudo chmod 600 acme.json
 
 
 5. change the email id in traefik.yml
-6. Change the basic auth user name and password after creating one, for credentials creation use
+6. Install apache package 
+sudo apt-get install apache2-utils
+
+8. Change the basic auth user name and password after creating one, for credentials creation use
 
 htpasswd -nb admin secure_password
